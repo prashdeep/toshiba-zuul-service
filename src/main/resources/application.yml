@@ -12,6 +12,7 @@ eureka:
 
 zuul:
   sensitive-headers: Cookie,Set-Cookie
+  prefix: /api
   routes:
     assetmgmt: /asset/**
     organizationservice: /org/**
